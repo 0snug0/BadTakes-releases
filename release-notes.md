@@ -3,6 +3,26 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.10.0 — 24 August 2026
+
+### The scene catalog
+
+Scenes to dub are now inside the app. "Get scenes" on the Make a scene page
+opens the community library — search it, sort it, click one and it installs.
+Installing is free on every plan, and always will be.
+
+![Searching the scene catalog and installing a scene into your own rail](notes/0.10.0/catalog.gif)
+
+### One file per scene
+
+Sharing a scene now produces a single `.take` file. Double-click it and it opens
+in Bad Takes; there is nothing to unzip and nowhere to put it by hand. As
+before, your own recordings never travel with it.
+
+![A .take file being sent to somebody else's library, recordings left behind](notes/0.10.0/take-file.gif)
+
+Also: Cmd+, on macOS and Ctrl+, on Windows open Settings.
+
 ## v0.9.0 — 24 August 2026
 
 ### Scoring, with difficulty settings
