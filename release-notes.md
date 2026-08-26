@@ -3,6 +3,26 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.12.0 — 26 August 2026
+
+### Collab was hidden — fixed
+
+v0.11.0 shipped collabs and then most people could not find them. The app
+remembers which features the server has switched on, and something it wrote on
+every launch was overwriting that answer seconds later — so collab switched
+itself back off each time you started up, and the Collab button on a scene
+simply was not there. It is now.
+
+The app also re-checks whenever you come back to the window, rather than up to
+an hour later.
+
+### A collab room keeps up
+
+News from a room — somebody joining, claiming a character, starting a take —
+now arrives about three times sooner. Opening a room you are already in
+refreshes it straight away instead of showing you claims up to a minute old,
+and somebody taking a free character is announced, which it never was.
+
 ## v0.11.0 — 25 August 2026
 
 ### Record a scene with other people
