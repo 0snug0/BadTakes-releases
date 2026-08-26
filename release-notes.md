@@ -3,6 +3,30 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.11.0 — 25 August 2026
+
+### Record a scene with other people
+
+Collabs are here. Start one on any scene and you get a join code; send it to
+whoever you want in it. They join free, claim a character, and record only that
+character's lines. Every app in the room pulls everyone else's takes and plays
+the combined dub — and exports it, the same as any other take.
+
+![A join code, three people claiming characters, and their takes arriving in one combined dub](notes/0.11.0/collab.gif)
+
+Nobody has to be there at the same time, and nobody can record over anybody:
+a character has exactly one owner, and a line plays its owner's take. Up to
+eight people to a room. Hosting needs the $10 unlock — joining one never does.
+
+### Pick your handle
+
+Your account now has an `@handle`, and you will be asked for one on your next
+launch. It is the name the rest of the room sees when you join their collab,
+instead of half of your email address. You can change it later in Settings.
+
+Also: new accounts are subscribed to release announcements, with an unsubscribe
+link in every one.
+
 ## v0.10.0 — 24 August 2026
 
 ### The scene catalog
