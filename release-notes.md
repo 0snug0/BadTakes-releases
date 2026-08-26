@@ -3,6 +3,31 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.12.1 — 26 August 2026
+
+### Anyone can host a collab
+
+v0.11.0 shipped collabs with hosting behind the $10 unlock. That is gone — any
+account can start a room on any scene now, and joining one was always free.
+
+A collab is the one thing in Bad Takes that brings other people in: everyone
+you send a code to installs the app to use it. Charging for the invitation was
+the wrong way round.
+
+### Buying the unlock takes effect straight away
+
+Paying used to leave the app still showing the free plan — and still counting
+your scenes against the free five — until you signed out and back in. If you
+bought the unlock and then got refused on your sixth scene, that is fixed. No
+sign-out needed, and nothing you paid for was lost.
+
+### Signing in on another computer says so
+
+Your account runs on one machine at a time. Signing in on a second one used to
+leave the first looking perfectly signed in while everything it tried quietly
+failed, under a message that named the feature rather than the reason. It now
+returns to the sign-in screen and tells you what actually happened.
+
 ## v0.12.0 — 26 August 2026
 
 ### Collab was hidden — fixed
