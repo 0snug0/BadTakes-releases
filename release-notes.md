@@ -3,6 +3,43 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.12.2 — 27 August 2026
+
+### Everybody gets credited for the lines they read
+
+A collab dub is several people's work, and the app never once said whose. Now
+it does, in every place the dub turns up: the screening room names the
+collaborator reading each line in the script and on the stage itself, and both
+the video export's end card and the vertical reel carry those names too.
+
+Post the clip and the people in it are credited on it.
+
+### Updates arrive without waiting for you to quit
+
+Installing on quit was the whole delivery story, and it only ever reached
+people who quit. A machine left running never restarts, so the update sat
+downloaded on disk indefinitely.
+
+Downloading now happens on its own, and when an update is ready and you are
+not in the middle of anything, the app offers to restart into it. The
+"Update automatically" setting still means what it always meant — leave it off
+and nothing swaps the app out from under you — but the Settings row now
+describes what it actually controls.
+
+### Collabs hold together
+
+Four fixes to rooms that misbehaved:
+
+- A scene whose collab has wrapped can host a new one. It used to refuse for
+  days, long after the dub was finished.
+- Guests can no longer edit a scene out from under a room that is still
+  running. The check only ever covered hosts, and a guest's edit breaks a room
+  exactly as a host's does.
+- Back leaves a dub you were watching and returns home, instead of stranding
+  you there.
+- The public collab list shows scene thumbnails. It never has — every single
+  one was silently skipped before it was ever uploaded.
+
 ## v0.12.1 — 26 August 2026
 
 ### Anyone can host a collab
