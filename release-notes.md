@@ -3,6 +3,24 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.13.0 — 27 August 2026
+
+### Your friends' faces, not just their voices
+
+A collab's combined dub played every member's voice but nobody's face — the
+camera clip recorded with a take stayed on the machine that recorded it. The
+clip now syncs along with the take, so the screening room plays every
+member's footage, and a saved take or an export keeps every face too.
+
+![A camera clip riding beside a take from one machine to another, landing in the screening room](notes/0.13.0/cam-sync.gif)
+
+### A fresh install lands on the real library
+
+A brand-new account used to meet a "No scenes yet" panel that replaced the
+whole home page — hiding the exact doors it was pointing at. The full library
+page is the landing now, so Make a scene — where importing, Get scenes and
+joining a collab all live — is right there from the first launch.
+
 ## v0.12.2 — 27 August 2026
 
 ### Everybody gets credited for the lines they read
