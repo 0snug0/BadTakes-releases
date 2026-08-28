@@ -3,6 +3,36 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.13.1 — 27 August 2026
+
+### Updates that actually arrive
+
+If you are on macOS, this is almost certainly the release you have been
+missing several of.
+
+Settings would tell you a new version was downloaded and would install when
+you quit — while macOS had not yet staged a single byte of it. Downloading the
+file is only the first half; the second half is macOS pulling the whole archive
+again and verifying it, and only that half makes an update installable. Quit in
+between and nothing was staged, nothing said so, and the next launch started
+the entire download over. One machine did that eighteen times across five days
+and never left the version it started on.
+
+The app now waits for the real thing. While macOS is still working it says
+"Preparing version 0.13.1… leave the app open to finish", and "downloaded —
+it installs when you quit" now means it genuinely is.
+
+![A download that finishes, a second half nobody was told about, and the quit that used to throw it away](notes/0.13.1/update-staging.gif)
+
+### When an update can't happen, it says why
+
+Every update problem used to read the same: "Couldn't check for updates — try
+again later", whether the machine was offline, a download had dropped, or the
+app could not replace itself. Those need different answers, so they get
+different ones now — a connection problem says so, and a download or install
+that failed offers you the download page, which is the only one of the three
+that page fixes.
+
 ## v0.13.0 — 27 August 2026
 
 ### Your friends' faces, not just their voices
