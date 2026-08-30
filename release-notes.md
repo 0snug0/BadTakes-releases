@@ -3,6 +3,27 @@
 What changed in each version. Downloads for every release are on the
 [Releases](../../releases) page.
 
+## v0.13.2 — 30 August 2026
+
+### Your public collab is listed the moment you press Start
+
+Opening a room to strangers and then having to record something before any of
+them could find it was backwards. The public list used to wait for the host's
+first committed take — which is the one moment a host is least likely to be at
+the keyboard, because they are sitting there waiting for somebody to arrive.
+
+Pressing Start is what puts the room on the list now. You go straight to ON
+AIR, and the invite code and the scene's upload meter come with you, so the
+wait has something to watch and something to send people. While the scene is
+still going up, the note under the code says so — the code and the public list
+both start working the moment it finishes.
+
+![The same room and the same minute, read on two public lists: the old one empty until the host records, the new one carrying it from the press](notes/0.13.2/collab-listing.gif)
+
+One thing follows from it: "Back to setup" now ends at Start rather than at the
+first guest take. A listing strangers are already reading should not be able to
+change its cast underneath them.
+
 ## v0.13.1 — 27 August 2026
 
 ### Updates that actually arrive
